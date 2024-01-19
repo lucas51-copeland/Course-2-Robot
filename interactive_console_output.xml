@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on win32)" generated="20240118 15:42:46.614" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\E1485570.COPELAND\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Download" library="RPA.HTTP">
+<arg>https://robotsparebinindustries.com/orders.csv</arg>
+<arg>overwrite=True</arg>
+<doc>An alias for the ``HTTP Get`` keyword.</doc>
+<msg timestamp="20240118 15:43:28.529" level="FAIL">SSLError: HTTPSConnectionPool(host='robotsparebinindustries.com', port=443): Max retries exceeded with url: /orders.csv (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1007)')))</msg>
+<status status="FAIL" starttime="20240118 15:43:26.509" endtime="20240118 15:43:28.538"/>
+</kw>
+<status status="PASS" starttime="20240118 15:42:46.658" endtime="20240118 15:48:20.514"/>
+</kw>
+<status status="PASS" starttime="20240118 15:42:46.657" endtime="20240118 15:48:20.514"/>
+</test>
+<status status="PASS" starttime="20240118 15:42:46.618" endtime="20240118 15:48:20.516"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
