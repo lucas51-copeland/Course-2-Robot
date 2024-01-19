@@ -55,6 +55,8 @@ Fill the form
     ...    css:#root > div > div.container > div > div.col-sm-7 > form > div:nth-child(2) > div > div:nth-child(${order_row}[Body])
     Click Element When Clickable
     ...    css:#root > div > div.container > div > div.col-sm-7 > form > div:nth-child(2) > div > div:nth-child(${order_row}[Body])
+    Click Element When Clickable
+    ...    css:#root > div > div.container > div > div.col-sm-7 > form > div:nth-child(2) > div > div:nth-child(${order_row}[Body])
 
     Input Text    css:input[placeholder="Enter the part number for the legs"]    ${order_row}[Legs]
     Input Text    css:#address    ${order_row}[Address]
